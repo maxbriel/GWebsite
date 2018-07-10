@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <title>Gravitational Wave Detections</title>
+    </head>
+    <body>
+
+        <div class="row" id='container' >
+            <div class="column" id='images'>
+                <div style="text-align:center">
+                    <h3 style="margin-left:-30px"> Mollweide Projection Map </h3>
+                </div>
+                <div>
+                    <svg>
+                    </svg>
+                </div>
+                <div id="event_selector">
+                    <div class="event_column column">
+                    </div>
+                    <div class="event_column column">
+                    </div>
+                    <div class="event_column column">
+                    </div>
+                    <div class="event_column column">
+                    </div>
+                </div>
+            </div>
+            <div class="column" id='data_showcase'>
+
+            </div>
+        </div>
+
+
+        <script src="data.js"></script>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="index.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
+    </body>
+</html>
